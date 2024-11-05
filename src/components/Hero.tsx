@@ -6,7 +6,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e]"
         style={{
-            backgroundImage: 'url(src/components/background.jpg)',
+            backgroundImage: 'url(background.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundBlendMode: 'multiply',
@@ -16,7 +16,7 @@ export default function Hero() {
       <div className="relative z-20 max-w-4xl mx-auto">
         <div className="profile-image w-40 h-40 mx-auto mb-8 rounded-full border-4 border-white/20 shadow-2xl overflow-hidden backdrop-blur-sm">
           <img
-            src="src/components/profile.jpg"
+            src="profile.jpg"
             alt="Kumar Datta Tummala"
             className="w-full h-full object-cover"
           />
